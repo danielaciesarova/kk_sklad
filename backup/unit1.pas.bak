@@ -55,16 +55,9 @@ begin
   Memo1.Clear;
   Memo2.Clear;
 
-  {If radiobutton1 checked true then "vypise vsetky nedostatkove tovary" do memo 2 (format: artikel, ks, doobjednat ks)
-  If radiobutton2 checked true then: enable true Edit1 na zadanie kodu tovaru
-  ...
-  po zadani kodu tovaru prebehne kontrola, ci dany produkt existuje
-  ak nie, edit ostava enabled true a label4='nazov tovaru' dostane hodnotu "produkt neexistuje"
-  ak ano, jeho nazov sa vypise do label4 a do Label5='cena' cena za kus. (label6 caption='1ks')
-  a vykona sa Edit 2= 'mnozstvo' enable true.
-  po zadani mnozstva sa zobrazi v label5 nakupna cena za dane mnozstvo. (label6 caption='nks') n=zadane mnozstvo
-  button2=objednat enable true.
-  po stlaceni buttonu sa zmenia stavy financne a prepise subor sklad.
+  {doobjednat do kolko kusov?
+  ****na aku operaciu moze fungovat vyhodnocovanie radiobuttonov?
+  (nie: on RB change, timer)****
   }
 end;
 
