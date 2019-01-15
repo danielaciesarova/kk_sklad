@@ -59,10 +59,7 @@ begin
   ****na aku operaciu moze fungovat vyhodnocovanie radiobuttonov?
   (nie: on RB change, timer)****
   }
-  {doobjednat do kolko kusov?
-  ****na aku operaciu moze fungovat vyhodnocovanie radiobuttonov?
-  (nie: on RB change, timer)****
-  }
+
 end;
 
 procedure TForm1.RadioButton1Change(Sender: TObject);
